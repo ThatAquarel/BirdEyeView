@@ -1,4 +1,6 @@
 # BirdEyeView
+Designed to turn a sideways perspective to a bird eye's view. Recommended for cameras attached on poles, minimum configuration needed.
+
 Dependency
 - OpenCv 4.4.0
 
@@ -13,9 +15,9 @@ Program will then exit after printing out 5 parameters calculated from the two g
 ![BirdEyeView.py](https://raw.githubusercontent.com/AquarelMc/BirdEyeView/master/Capture64.PNG)
 
 # Algorithms
-To find the final vertical scaling factor, the following has been used:
+To find the final vertical scaling factor, the following has been used: \
 ![VerticalScaleSolving](https://raw.githubusercontent.com/AquarelMc/BirdEyeView/master/Capture65.PNG)
 
-To find the camera angle, nonlinear curve fitting has been used:
+To find the camera angle, nonlinear curve fitting has been used: \
 ![Excel Sheet](https://raw.githubusercontent.com/AquarelMc/BirdEyeView/master/Capture66.PNG)
-[Excel Sheet](https://github.com/AquarelMc/BirdEyeView/blob/master/Relation%20Between%20Camera%20Angle%20And%20Perspective.xlsx?raw=true)
+[Excel Sheet Here](https://github.com/AquarelMc/BirdEyeView/blob/master/Relation%20Between%20Camera%20Angle%20And%20Perspective.xlsx?raw=true)
