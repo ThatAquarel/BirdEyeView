@@ -25,7 +25,7 @@ def calculateParameters():
     a2 = degrees(atan((line2[1][0] - line2[0][0]) / (line2[1][1] - line2[0][1])))
     average = (a1 + a2) / 2
     camAngle = 91.3651073333154 + (-2.28277686222745 * average) + (0.0895247387148957 * average * average) + (
-                -0.00314825231641227 * average * average * average)
+            -0.00314825231641227 * average * average * average)
 
     pt1 = (line1[0][0] - line1[1][0], line1[0][1])
     pt2 = (line2[0][0] + (width - line2[1][0]), line2[0][1])
@@ -75,7 +75,6 @@ class GetParameters:
                 cv.line(img=self.frame, pt1=(line2[0][0], line2[0][1]), pt2=(line2[1][0], line2[1][1]),
                         color=(0, 0, 255), thickness=3, lineType=8, shift=0)
                 calculateParameters()
-
                 break
 
             cv.imshow('frame', self.frame)

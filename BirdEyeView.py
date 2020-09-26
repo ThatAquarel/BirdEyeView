@@ -120,4 +120,4 @@ class BirdEyeView:
 
 
 if __name__ == "__main__":
-    GetCameraFov = GetCameraFov()
+    BirdEyeView = BirdEyeView()
